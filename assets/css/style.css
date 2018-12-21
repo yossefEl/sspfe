@@ -140,7 +140,7 @@ button, input[type="submit"] {
 ul {
   list-style: outside none none;
   margin: 0;
-  padding: 0; }
+  padding: auto !important; }
 
 /*-- 
     - Common Classes
@@ -3263,8 +3263,8 @@ img.mfp-img {
 .header-sticky.is-sticky {
   -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-  -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   position: fixed;
   left: 0;
@@ -11800,3 +11800,5 @@ ul.link-widget li {
   height: 120px;
   resize: none;
   background-color: transparent; }
+
+
