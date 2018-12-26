@@ -4195,7 +4195,9 @@ img.mfp-img {
     /*---- Mean Nav ----*/ }
     .mobile-menu .mean-bar .meanmenu-reveal {
       position: absolute;
-      top: -40px; }
+      top: -40px; 
+      margin-top:-18;
+    }
       .mobile-menu .mean-bar .meanmenu-reveal span {
         position: relative;
         /*---- Menu Open ----*/
