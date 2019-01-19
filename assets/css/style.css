@@ -4189,13 +4189,14 @@ img.mfp-img {
 .mobile-menu {
   -webkit-box-flex: 1 !important;
   -ms-flex: 1 0 100% !important;
-  flex: 1 0 100% !important; }
+  flex: 1 0 100% !important; 
+}
   .mobile-menu .mean-bar {
     position: relative;
     /*---- Mean Nav ----*/ }
     .mobile-menu .mean-bar .meanmenu-reveal {
       position: absolute;
-      top: -40px; 
+      top: -60px; 
       margin-top:-18;
     }
       .mobile-menu .mean-bar .meanmenu-reveal span {
@@ -11803,4 +11804,6 @@ ul.link-widget li {
   resize: none;
   background-color: transparent; }
 
-
+.logo-num-1{
+	width: 142px;
+}
